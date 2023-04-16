@@ -2790,7 +2790,7 @@ fig.set_ylabel('WindSpeed3pm')
 
 
     
-![png](output_114_1.png)
+![output_114_1](https://user-images.githubusercontent.com/130254026/232265526-80b7c8e2-3bc2-4c13-81b2-87d182d04f5b.png)
     
 
 
@@ -2806,11 +2806,12 @@ fig.set_ylabel('WindSpeed3pm')
 ```python
 # plot histogram to check distribution
 
-plt.figure(figsize=(15,10))
+plture(figsize=(15,10))
 
 
 plt.subplot(2, 2, 1)
 fig = df.Rainfall.hist(bins=10)
+
 fig.set_xlabel('Rainfall')
 fig.set_ylabel('RainTomorrow')
 
@@ -2842,7 +2843,7 @@ fig.set_ylabel('RainTomorrow')
 
 
     
-![png](output_117_1.png)
+![output_117_1](https://user-images.githubusercontent.com/130254026/232265519-fc95cc52-7ed8-4739-b2a3-94cf0580bc93.png)
     
 
 
@@ -5283,7 +5284,7 @@ sns.heatmap(cm_matrix, annot=True, fmt='d', cmap='YlGnBu')
 
 
     
-![png](output_219_1.png)
+![output_219_1](https://user-images.githubusercontent.com/130254026/232265549-84fdd618-bd87-44af-8578-085c06786e76.png)
     
 
 
@@ -5640,7 +5641,7 @@ plt.ylabel('Frequency')
 
 
     
-![png](output_252_1.png)
+![output_252_1](https://user-images.githubusercontent.com/130254026/232265560-952617c9-f98d-40b4-9735-75a87474e1cb.png)
     
 
 
